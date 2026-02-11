@@ -1,0 +1,11 @@
+-- 10 exemplos de ALTER TABLE
+ALTER TABLE Orquestra ADD fundador VARCHAR(100);
+ALTER TABLE Musico ADD email VARCHAR(100);
+ALTER TABLE Musico MODIFY nacionalidade VARCHAR(80);
+ALTER TABLE Musico ADD telefone VARCHAR(20);
+ALTER TABLE Instrumento ADD afinacao VARCHAR(20);
+ALTER TABLE Sinfonia ADD duracao_minutos INT;
+ALTER TABLE Funcao ADD descricao VARCHAR(100);
+ALTER TABLE Orquestra ADD site_oficial VARCHAR(150);
+ALTER TABLE Musico ADD genero VARCHAR(20);
+ALTER TABLE Instrumento MODIFY nome VARCHAR(80);
